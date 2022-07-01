@@ -1,14 +1,4 @@
 ## The Main analysis
-In this fold, the main analysis are including: 
-
-(1) Estimating the CCF values based on CHAT
-
-(2) The comparison between different regions.
-
-(3) The phylogenetic tress of samples and the mutations clsuters across samples.
-
-(4) The clonal orders and the clonal evolution history.
-
 
 ### 1. intratumor heterogeneity (ITH)
 **Scripts**:  
@@ -69,4 +59,16 @@ Fig 6B-D
 `GC_revolver_surivival.R`
 
 Supplementary Fig S13
+
+
+### 5. Estimate the driver order.
+**Scripts**: 
+`built_trees.R`
+
+Built phylogenetic trees from somatic mutations and CNAs. The tree is built by MPTevol (https://rpubs.com/cqj_00/MPTevol)
+
+1. Fig 5A: mutation-based trees.
+
+2. Fig S9: CNV-based trees.
+
 

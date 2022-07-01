@@ -173,16 +173,11 @@ pre code {
 
 <div id="the-main-analysis" class="section level2">
 <h2>The Main analysis</h2>
-<p>In this fold, the main analysis are including:</p>
-<ol style="list-style-type: decimal">
-<li><p>Estimating the CCF values based on CHAT</p></li>
-<li><p>The comparison between different regions.</p></li>
-<li><p>The phylogenetic tress of samples and the mutations clsuters across samples.</p></li>
-<li><p>The clonal orders and the clonal evolution history.</p></li>
-</ol>
-<div id="estimating-the-ccf-values-based-on-chat" class="section level3">
-<h3>1. Estimating the CCF values based on CHAT</h3>
-<p><strong>Scripts</strong>: CCF_adjust.R</p>
+<div id="intratumor-heterogeneity-ith" class="section level3">
+<h3>1. intratumor heterogeneity (ITH)</h3>
+<p><strong>Scripts</strong>:</p>
+<p><code>Proportional_SCNA_SNV.R</code></p>
+<p>Figure 4 A-C: Estimate intratumor heterogeneity(ITH) to infer the tumor origins (shared common ancestor) and tumor divergence(early vs.late T index).</p>
 </div>
 <div id="jsi-index" class="section level3">
 <h3>2. JSI index</h3>
@@ -199,7 +194,7 @@ pre code {
 <p><code>MCN_analysis.R</code></p>
 <p>Fig 3B: The scatter plot of tumor ploidy and the fraction of autosomal tumor genomes with MCN &gt;=2 Fig 3D: The timing of WGD with genome loss.</p>
 <p><code>Segs_LOH.R</code></p>
-<p>Figure 3C and Supplementary Figures:</p>
+<p>Fig 3C and Supplementary Figures:</p>
 <p>Make comparisons between MANEC-ACA, MANEC-NEC, STAD-CIN:GD and STAD-CIN:noGD. including:</p>
 <ol style="list-style-type: decimal">
 <li><p>proportional of copy neutral-LOH, haploid LOH (Fig 3C)</p></li>
@@ -215,6 +210,15 @@ pre code {
 <p>Fig 6B-D</p>
 <p><code>GC_revolver_surivival.R</code></p>
 <p>Supplementary Fig S13</p>
+</div>
+<div id="estimate-the-driver-order.-1" class="section level3">
+<h3>5. Estimate the driver order.</h3>
+<p><strong>Scripts</strong>: <code>built_trees.R</code></p>
+<p>Built phylogenetic trees from somatic mutations and CNAs. The tree is built by MPTevol (<a href="https://rpubs.com/cqj_00/MPTevol" class="uri">https://rpubs.com/cqj_00/MPTevol</a>)</p>
+<ol style="list-style-type: decimal">
+<li><p>Fig 5A: mutation-based trees.</p></li>
+<li><p>Fig S9: CNV-based trees.</p></li>
+</ol>
 </div>
 </div>
 
