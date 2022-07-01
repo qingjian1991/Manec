@@ -182,22 +182,39 @@ pre code {
 </ol>
 <div id="estimating-the-ccf-values-based-on-chat" class="section level3">
 <h3>1. Estimating the CCF values based on CHAT</h3>
-<p><strong>scripts</strong>: CCF_adjust.R</p>
+<p><strong>Scripts</strong>: CCF_adjust.R</p>
 </div>
-<div id="the-comparison-between-different-regions." class="section level3">
-<h3>2. The comparison between different regions.</h3>
-<p><strong>scripts</strong>: meskit_analysis.R</p>
-<p>MesKit_plot.Rmd provides the visualizations, see online: <a href="https://rpubs.com/cqj_00/MesKit_plot" class="uri">https://rpubs.com/cqj_00/MesKit_plot</a></p>
+<div id="jsi-index" class="section level3">
+<h3>2. JSI index</h3>
+<p><strong>Scripts</strong>: <code>meskit_routines.R</code> Fig 5B-G</p>
+<p>Fig 5B: applied JSI index to estimate the divergence levels between ACA and NEC</p>
+<p>Fig 5C-D: The paired JSI in patients with MSR (multi-region sequencing)</p>
+<p>Fig 5E: The relationships between JSI and divergence time (T index)</p>
+<p>Fig 5F: Distributions of JSI in 27 SSR patients.</p>
+<p>Fig 5G: the neutral evolutionary index.</p>
 </div>
-<div id="the-phylogenetic-tress-of-samples-and-the-mutations-clusters-across-samples." class="section level3">
-<h3>3. The phylogenetic tress of samples and the mutations clusters across samples.</h3>
-<p><strong>scripts</strong>: CCF_plot.R</p>
-<p>plot_trees.Rmd is intent to build samples trees from mutations, See online: <a href="https://rpubs.com/cqj_00/plot_trees" class="uri">https://rpubs.com/cqj_00/plot_trees</a></p>
+<div id="whole-genome-doubling-wgd" class="section level3">
+<h3>3. Whole Genome Doubling (WGD)</h3>
+<p><strong>Scripts</strong>:</p>
+<p><code>MCN_analysis.R</code></p>
+<p>Fig 3B: The scatter plot of tumor ploidy and the fraction of autosomal tumor genomes with MCN &gt;=2 Fig 3D: The timing of WGD with genome loss.</p>
+<p><code>Segs_LOH.R</code></p>
+<p>Figure 3C and Supplementary Figures:</p>
+<p>Make comparisons between MANEC-ACA, MANEC-NEC, STAD-CIN:GD and STAD-CIN:noGD. including:</p>
+<ol style="list-style-type: decimal">
+<li><p>proportional of copy neutral-LOH, haploid LOH (Fig 3C)</p></li>
+<li><p>clonal and subclonal LOH (Fig S4C)</p></li>
+<li><p>MATH scores (tumor heterogeneity scores) (Fig S4D)</p></li>
+</ol>
+<p><code>Segs_essential.R</code></p>
+<p>Fig 3F: calculate the relationship between the proportions of copy number change before (MCN = 1) and after WGD (MCN&gt;=2) with the gene density (including essential genes, tumor suppersor genes and oncogenes ) in each arm.</p>
 </div>
 <div id="estimate-the-driver-order." class="section level3">
 <h3>4. Estimate the driver order.</h3>
-<p><strong>Scripts</strong>: GC_revolver.R GC_revolver_surivival.R</p>
-<p>This code used the revolver to divide the patients into 5 subgroups. See <code>Fig 6</code> in the main text.</p>
+<p><strong>Scripts</strong>: <code>GC_revolver.R</code></p>
+<p>Fig 6B-D</p>
+<p><code>GC_revolver_surivival.R</code></p>
+<p>Supplementary Fig S13</p>
 </div>
 </div>
 

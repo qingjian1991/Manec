@@ -6,9 +6,9 @@
 # Figure 3C and Supplementary Figures:
 
 # Make comparisons between MANEC-ACA, MANEC-NEC, STAD-CIN:GD and STAD-CIN:noGD. including:
-#(1) proportional of copy neutral-LOH, haploid LOH
-#(2) clonal and subclonal LOH
-#(3) MATH scores (tumor heterogeneity scores)
+#(1) proportional of copy neutral-LOH, haploid LOH (Fig 3C)
+#(2) clonal and subclonal LOH (Fig S4C)
+#(3) MATH scores (tumor heterogeneity scores) (Fig S4D)
 
 ###############################################################################################
 
