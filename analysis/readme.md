@@ -10,8 +10,13 @@ In this fold, the main analysis are including:
 (4) The clonal orders and the clonal evolution history.
 
 
-### 1. Estimating the CCF values based on CHAT
-**Scripts**: CCF_adjust.R
+### 1. intratumor heterogeneity (ITH)
+**Scripts**:  
+
+`Proportional_SCNA_SNV.R`
+
+Figure 4 A-C: Estimate intratumor heterogeneity(ITH) to infer the tumor origins (shared common ancestor) and tumor divergence(early vs.late T index).
+
 
 ### 2. JSI index
 **Scripts**: 
