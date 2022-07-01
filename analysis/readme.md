@@ -61,7 +61,7 @@ Fig 6B-D
 Supplementary Fig S13
 
 
-### 5. Estimate the driver order.
+### 5. Built phylogenetic trees
 **Scripts**: 
 `built_trees.R`
 
@@ -70,5 +70,3 @@ Built phylogenetic trees from somatic mutations and CNAs. The tree is built by M
 1. Fig 5A: mutation-based trees.
 
 2. Fig S9: CNV-based trees.
-
-
