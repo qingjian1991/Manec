@@ -15,7 +15,8 @@ microdissection of gastric mixed adeno-neuroendocrine carcinoma reveals
 its genomic landscapes and evolutionary clonal origins”. All R code used
 in the analysis is included.
 
-The main analysis code is stored in **analysis**
+The main analysis code is stored in **analysis**. Please see the folder
+`analysis` for details.
 
 ## Citations
 
