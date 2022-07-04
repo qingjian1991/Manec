@@ -177,10 +177,11 @@ pre code {
 <h3>1. intratumor heterogeneity (ITH)</h3>
 <p><strong>Scripts</strong>:</p>
 <p><code>Proportional_SCNA_SNV.R</code></p>
-<p>Figure 4 A-C: Estimate intratumor heterogeneity(ITH) to infer the tumor origins (shared common ancestor) and tumor divergence(early vs.late T index).</p>
+<p>Figure 4 A-C: Estimate intratumor heterogeneity(ITH) to infer the tumor origins (shared common ancestor) and tumor divergence(early vs. late divergence using T index).</p>
 </div>
 <div id="jsi-index" class="section level3">
 <h3>2. JSI index</h3>
+<p>Divergence levels between ACA and NEC are estimated by the Jaccard similarity index of their mutations, similar to divergence level between primary and metastatic tumors. The JSI level is calculated using function <code>calRoutines</code> in <code>MPTevol</code>(<a href="https://github.com/qingjian1991/MPTevol" class="uri">https://github.com/qingjian1991/MPTevol</a>)</p>
 <p><strong>Scripts</strong>: <code>meskit_routines.R</code> Fig 5B-G</p>
 <p>Fig 5B: applied JSI index to estimate the divergence levels between ACA and NEC</p>
 <p>Fig 5C-D: The paired JSI in patients with MSR (multi-region sequencing)</p>
@@ -190,9 +191,11 @@ pre code {
 </div>
 <div id="whole-genome-doubling-wgd" class="section level3">
 <h3>3. Whole Genome Doubling (WGD)</h3>
+<p>The WGD status of each sample is determined by <code>EstimateClonality</code> (<a href="https://github.com/qingjian1991/EstimateClonality" class="uri">https://github.com/qingjian1991/EstimateClonality</a>).</p>
 <p><strong>Scripts</strong>:</p>
 <p><code>MCN_analysis.R</code></p>
-<p>Fig 3B: The scatter plot of tumor ploidy and the fraction of autosomal tumor genomes with MCN &gt;=2 Fig 3D: The timing of WGD with genome loss.</p>
+<p>Fig 3B: The scatter plot of tumor ploidy and the fraction of autosomal tumor genomes with MCN &gt;=2</p>
+<p>Fig 3D: The timing of WGD with genome loss.</p>
 <p><code>Segs_LOH.R</code></p>
 <p>Fig 3C and Supplementary Figures:</p>
 <p>Make comparisons between MANEC-ACA, MANEC-NEC, STAD-CIN:GD and STAD-CIN:noGD. including:</p>
@@ -206,15 +209,16 @@ pre code {
 </div>
 <div id="estimate-the-driver-order." class="section level3">
 <h3>4. Estimate the driver order.</h3>
+<p>The temporal orders of driver genes are determined by <code>revolver</code> (<a href="https://github.com/caravagnalab/revolver" class="uri">https://github.com/caravagnalab/revolver</a>).</p>
 <p><strong>Scripts</strong>: <code>GC_revolver.R</code></p>
 <p>Fig 6B-D</p>
 <p><code>GC_revolver_surivival.R</code></p>
 <p>Supplementary Fig S13</p>
 </div>
-<div id="estimate-the-driver-order.-1" class="section level3">
-<h3>5. Estimate the driver order.</h3>
+<div id="built-phylogenetic-trees" class="section level3">
+<h3>5. Built phylogenetic trees</h3>
+<p>Constructing of a phylogenetic tree based on somatic mutations or copy number alterations using MPTevol (<a href="https://rpubs.com/cqj_00/MPTevol" class="uri">https://rpubs.com/cqj_00/MPTevol</a>)</p>
 <p><strong>Scripts</strong>: <code>built_trees.R</code></p>
-<p>Built phylogenetic trees from somatic mutations and CNAs. The tree is built by MPTevol (<a href="https://rpubs.com/cqj_00/MPTevol" class="uri">https://rpubs.com/cqj_00/MPTevol</a>)</p>
 <ol style="list-style-type: decimal">
 <li><p>Fig 5A: mutation-based trees.</p></li>
 <li><p>Fig S9: CNV-based trees.</p></li>
